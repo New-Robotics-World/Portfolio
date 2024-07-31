@@ -1,0 +1,182 @@
+
+h2{
+    width: 350px;
+    color: #000000d8;
+    font-size: 2em;
+}
+h1 {
+    background: linear-gradient(to top, #ACFF6B 0%, hsl(95, 64%, 63%) 70%, #57BC08 100%);
+    border-radius: 0 30px 50px 0;
+    color: #000000d8;
+    padding: 10px 20px;
+    display: inline-block;
+    min-width: 170px;
+    max-width: 270px;
+}
+#a1,#a2,#a3{  text-decoration: none;
+    color: #046207;
+    transition-duration: 2s;
+}
+#a1:hover,#a2:hover,#a3:hover{
+    padding: 10px;
+    color: #3835f8;
+    font-size: 1.5em;
+    background-color: #8ce83c;
+    border-radius: 20%;
+}
+#a1:active,#a2:active,#a3:active{
+    
+
+    float: right;
+    padding: 10px;
+    color: #35f83c;
+    font-size: 1.5em;
+    background-color: #1b34f1;
+    border-radius: 10%;
+
+}
+p{  padding-left: 40px;
+    color: #000000d8;
+    font-size: 1.7em;
+    min-width: 400px;
+    max-width: 900px;
+}
+ul {
+    list-style: none;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 400px;
+    max-width: 900px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 5px;
+    
+    font-size: 1.4em;
+}
+
+li::before {
+    content: ""; /* Star icon */
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top:0;
+    left: 0;
+    background-image: url("logo/star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#project{
+    font-size: 1.3em;
+   
+}
+#project::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    top:0;
+    left: 0;
+    background-image: url("logo/star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html{
+    
+    display: grid;
+    justify-items: center;
+   
+}
+body{
+    
+    display: grid;
+    justify-items: start;
+    background: #ffffffd8;
+    border-style: dotted;
+    border-color: #57BC08;
+    padding: 25px;
+    padding-bottom: 50px;
+    background-color: #e0e0e0;
+}
+
+#heder{
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+}
+
+#logo{
+    min-width: 300px;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%/60%;
+
+}
+#profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: o;
+}
+
+#bio{
+    
+    display: grid;
+    row-gap: 10px;
+    align-items: center;
+}
+
+#contact{
+    display: flex;
+    column-gap: 50px;
+    padding-left: 40px;
+    font-size: 3em;
+}
+#facebook{
+    color: #0165E1;
+    transition-duration: 2.5s;
+}
+#facebook:hover{
+    font-size: 2em;
+}
+#facebook:active{
+    font-size: 1.5em;
+}
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 2.5s;
+   
+}
+#insta:hover{
+    font-size: 2em;
+}
+#insta:active{
+    font-size: 1.5em;
+}
+#linkedin{
+    color: #0A66C2 ;
+    transition-duration: 2.5s;
+}
+#linkedin:hover{
+    font-size: 2em;
+}
+#linkedin:active{
+    font-size: 1.5em;
+}
