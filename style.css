@@ -56,7 +56,7 @@ li {
     justify-content: space-between;
     margin-bottom: 10px;
     position: relative;
-    padding-left: 35px;
+    padding-left: 40px;
     padding-top: 5px;
     
     font-size: 1.4em;
@@ -70,7 +70,7 @@ li::before {
     height: 30px;
     top:0;
     left: 0;
-    background-image: url("logo/star.png");
+    background-image: url("logo/star2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,7 +87,7 @@ li::before {
     height: 40px;
     top:0;
     left: 0;
-    background-image: url("logo/star.png");
+    background-image: url("logo/star2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
